@@ -1,0 +1,49 @@
+body{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+
+}
+div{
+	left: 50%;
+	top: 30%;
+	transform: translateX(-50%);
+	position: absolute;
+    width: 450px;
+    display:grid;
+    justify-content: center;
+   border: yellow solid 5px;
+   padding: 2.5rem;
+   background: black;
+   border-radius:9px;
+}
+img{
+	top:-10%;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: yellow solid 5px;
+}
+ul {
+	list-style:square;
+}
+ul li a {
+
+	color: yellow;
+}
+input{
+
+	width: 400px;
+}
+button{
+	font-family:Arial;
+	border: black solid 1px;
+	margin-top: 8px;
+	width:150px;
+	background:greenyellow;
+}

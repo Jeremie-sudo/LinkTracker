@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title>Button Animation</title>
+</head>
+<body>
+
+
+	    <div>
+	    	   <img src="alivecodes.png" alt="">
+	    	   <input type="text"  id="input-el">
+	    	   <button id="input-btn">SAVE THE LINK</button>
+	    	   <ul>	</ul>
+	    </div>
+	  <script>	
+	  	  const input = document.querySelector('input')
+	  	  const btn = document.querySelector('button') 
+         const ul = document.querySelector('ul')
+         
+         
+         btn.addEventListener('click',(e)=>{
+         	
+         	let li = document.createElement('li')
+              li.innerHTML =`<a href="#">${input.value}</a>`   
+              ul.appendChild(li)
+         	
+         	 
+         	   
+         })
+           
+         
+         
+         
+         
+
+	  </script>
+</body>
+</html>
